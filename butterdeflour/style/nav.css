@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "Athiti", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.top-nav-bar {
+    background-color: #8B0000;
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.buttoms-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; 
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+.buttoms-nav-bar img {
+    width: 100px;
+    margin-left: 40px;
+}
+
+.buttoms-nav-bar a {
+    color: #000000;
+    margin-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.buttoms-nav-bar a:hover {
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 10px 20px;
+    border-radius: 45px;
+}
+
+.buttoms-nav-bar .highlight {
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 10px 22px;
+    border-radius: 45px;
+}
